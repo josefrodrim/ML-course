@@ -9,4 +9,4 @@ Curso de Machine Learning
 ## Clonar repositorio
 ```bash
 git clone https://github.com/josefrodrim/ML-course.git
-cd ML-course
+
