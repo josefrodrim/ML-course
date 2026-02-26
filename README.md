@@ -7,8 +7,10 @@ Curso de Machine Learning
 - VS Code
 
 ## Clonar repositorio
-```bash
+
 git clone https://github.com/josefrodrim/ML-course.git
+
+## Clonar repositorio
 
 # Machine Learning Course – From Fundamentals to Industrial Practice
 
