@@ -1,261 +1,160 @@
-# ML-course
-Curso de Machine Learning
 
-## Requisitos
-- Git
-- Anaconda
-- VS Code
+Machine Learning Course — From Fundamentals to Industrial Practice
 
-## Clonar repositorio
+Autor: Josef Rodriguez
+
+Repositorio académico y práctico diseñado para enseñar Machine Learning desde fundamentos hasta aplicaciones industriales mediante notebooks reproducibles en Python.
+
+Este curso cubre el ciclo completo de un proyecto de Machine Learning:
+
+- regresión
+- clasificación
+- clustering
+- forecasting
+- feature engineering
+- hyperparameter tuning
+- validación industrial de modelos
+- monitoreo y estabilidad de modelos
+
+------------------------------------------------------------
+FLUJO DE UN PROYECTO DE MACHINE LEARNING
+
+Data Collection
+↓
+Data Cleaning
+↓
+Exploratory Data Analysis
+↓
+Feature Engineering
+↓
+Model Training
+↓
+Hyperparameter Optimization
+↓
+Model Evaluation
+↓
+Model Validation
+↓
+Model Monitoring
+
+------------------------------------------------------------
+ESTRUCTURA DEL CURSO
+
+Clase 02
+Clase_02_Fundamentos_ML_Clasificacion_y_Regresion.ipynb
+Fundamentos de clasificación y regresión
+
+Clase 03
+Clase_03_Masterclass_Regresion_Lineal_NoLineal.ipynb
+Regresión lineal, ridge, lasso
+
+Clase 04
+Clase_04_EDA.ipynb
+Análisis exploratorio de datos
+
+Clase 04
+Clase_04_Extraccion_datos_web_scraping.ipynb
+Web scraping con Python
+
+Clase 05
+Clase_05_regresion_vf.ipynb
+Regresión con validación formal
+
+Clase 06
+Clase_06_clasificacion_v1.ipynb
+Modelos base de clasificación
+
+Clase 06-07
+Clase_06_07_clasificacion_vf.ipynb
+Clasificación avanzada y validación
+
+Clase 08
+Clase_08_Clustering.ipynb
+Clustering con KMeans
+
+Clase 08
+Clase_08_Clustering_VF.ipynb
+Validación de clustering
+
+Clase 08
+Clase_08_Clustering_ABC_RFM.ipynb
+Segmentación estratégica de clientes
+
+Clase 09
+Clase_09_Forecasting_vf.ipynb
+Forecasting y series de tiempo
+
+Clase 10
+Clase_10_WOES_HiperparametrosTuning.ipynb
+Feature engineering y hyperparameter tuning
+
+------------------------------------------------------------
+FEATURE ENGINEERING
+
+Técnicas utilizadas:
+
+- agrupación de categorías
+- transformaciones de variables
+- Weight of Evidence (WOE)
+- Information Value (IV)
+
+WOE = ln(%NoEvento / %Evento)
+
+IV = Σ (%NoEvento - %Evento) × WOE
+
+------------------------------------------------------------
+HYPERPARAMETER TUNING
+
+Métodos utilizados:
+
+- Grid Search
+- Random Search
+- Cross Validation
+
+Objetivo:
+
+lambda* = argmax Score(lambda)
+
+------------------------------------------------------------
+DATASETS
+
+dataset_mora.csv
+Datos_abiertos_admision_2021_1_2024_1.csv
+online_retail_II.xlsx
+ridetech_peru_regression_202201_202602.csv
+
+------------------------------------------------------------
+PAPERS INCLUIDOS
+
+papers/
+
+- CatBoost
+- Random Forest
+- Gradient Boosting
+- LightGBM
+- XGBoost
+
+------------------------------------------------------------
+INSTALACIÓN
 
 git clone https://github.com/josefrodrim/ML-course.git
 
-## Clonar repositorio
-
-# Machine Learning Course – From Fundamentals to Industrial Practice
-
-Autor: Josef Rodriguez  
-Repositorio académico y práctico orientado a formación profesional en Machine Learning con enfoque industrial.
-
----
-
-# Objetivo del Curso
-
-Este repositorio contiene un programa completo de Machine Learning estructurado en 8 clases, cubriendo:
-
-- Fundamentos teóricos
-- Implementación práctica en Python
-- Validación formal de modelos
-- Enfoque industrial (estabilidad, drift, monitoreo)
-- Segmentación estratégica de clientes
-
-El curso combina teoría matemática, código reproducible y aplicación real en datasets abiertos y escenarios tipo banca/industria.
-
----
-
-# Estructura del Curso
-
-## Clase 01 – Introducción a Machine Learning
-Fundamentos conceptuales:
-- Qué es Machine Learning
-- Tipos de aprendizaje
-- Flujo de un proyecto ML
-- Train/Test split
-- Overfitting vs Underfitting
-
----
-
-## Clase 02 – Fundamentos ML: Clasificación y Regresión
-Notebook:
-- Clase_02_Fundamentos_ML_Clasificacion_y_Regresion.ipynb
-
-Contenido:
-- Regresión vs Clasificación
-- Métricas (MAE, RMSE, R², Accuracy)
-- Bias-Variance Tradeoff
-- Evaluación correcta de modelos
-
-Dataset:
-- dataset_mora.csv
-
----
-
-## Clase 03 – Masterclass Regresión Lineal y No Lineal
-Notebook:
-- Clase_03_Masterclass_Regresion_Lineal_NoLineal.ipynb
-
-Modelos:
-- OLS
-- Ridge
-- Lasso
-- Elastic Net
-- Regresión Polinómica
-
-Enfoque:
-- Regularización
-- Interpretabilidad
-- Minimización del error cuadrático
-
----
-
-## Clase 04 – Exploratory Data Analysis y Web Scraping
-Notebooks:
-- Clase_04_EDA.ipynb
-- Clase_04_Extraccion_datos_web_scraping.ipynb
-
-Contenido:
-- Análisis exploratorio profesional
-- Distribuciones y outliers
-- Correlaciones
-- Extracción de datos con BeautifulSoup
-- Parsing HTML
-
-Dataset:
-- Datos_abiertos_admision_2021_1_2024_1.csv
-
----
-
-## Clase 05 – Regresión con Validación Formal
-Notebook:
-- Clase_05_regresion_vf.ipynb
-
-Contenido:
-- Train/Test Split
-- Cross Validation
-- Time Series Split
-- Comparación de modelos
-- Feature Engineering
-
-Dataset:
-- ridetech_peru_regression_202201_202602.csv
-
-Métricas:
-- MAE
-- RMSE
-- R²
-
----
-
-## Clase 06 – Clasificación (Modelos Base)
-Notebook:
-- Clase_06_clasificacion_v1.ipynb
-
-Modelos:
-- Regresión Logística
-- Árboles de decisión
-- Random Forest
-- XGBoost
-- LightGBM
-- CatBoost
-
-Métricas:
-- ROC AUC
-- Gini
-- Matriz de confusión
-
----
-
-## Clase 07 – Clasificación Avanzada y Estabilidad
-Notebook:
-- Clase_06_07_clasificacion_vf.ipynb
-
-Enfoque industrial:
-- Validación fuera de tiempo (OOT)
-- PSI (Population Stability Index)
-- Drift
-- Selección de variables
-- Monitoreo de modelos
-
-Incluye reporte:
-- reporte_comite_estabilidad_PSI.pdf
-
----
-
-## Clase 08 – Clustering y Segmentación Estratégica
-
-Notebooks:
-- Clase_08_Clustering.ipynb
-- Clase_08_Clustering_VF.ipynb
-- Clase_08_Clustering_ABC_RFM.ipynb
-
-Dataset:
-- online_retail_II.xlsx
-
-### Parte 1 – Clustering
-- KMeans
-- Silhouette Score
-- Davies-Bouldin
-- Calinski-Harabasz
-
-### Parte 2 – Segmentación ABC basada en RFM
-
-Definiciones:
-
-Recency:
-R_i = T_ref − max(T_i,t)
-
-Frequency:
-F_i = n_i
-
-Monetary:
-M_i = sum(Quantity_i,t × Price_i,t)
-
-Score:
-RFM_score_i = R*_i + F*_i + M*_i
-
-Segmentación:
-- A → Top 20% (alto valor)
-- B → 30% intermedio
-- C → 50% inferior
-
-Aplicación:
-- A: clientes estratégicos
-- B: clientes con potencial
-- C: clientes de bajo valor
-
----
-
-# Estructura del Repositorio
-
-data/  
-    datasets utilizados en las clases  
-
-diccionario_datos/  
-    documentación formal de variables  
-
-papers/  
-    papers técnicos de:
-    - CatBoost
-    - XGBoost
-    - LightGBM
-    - Random Forest
-    - Gradient Boosting  
-
-artifacts_clustering_retail/  
-    artefactos generados en clustering  
-
-requirements.txt  
-    dependencias del proyecto  
-
----
-
-# Instalación
-
-Requisitos:
-
-- Python 3.9+
-- pip o conda
-- Jupyter Notebook
-
-Instalar dependencias:
+cd ML-course
 
 pip install -r requirements.txt
 
-Ejecutar:
-
 jupyter notebook
 
----
+------------------------------------------------------------
+ENTORNO RECOMENDADO
 
-# Enfoque del Curso
+Python 3.9+
+Anaconda o Miniconda
+VS Code
+Jupyter Notebook
 
-Este repositorio no solo enseña modelos, sino que incorpora:
+------------------------------------------------------------
+AUTOR
 
-- Validación robusta
-- Control de estabilidad
-- Métricas industriales
-- Enfoque explicativo
-- Buenas prácticas reproducibles
-
----
-
-# Licencia
-
-Este proyecto se distribuye bajo la licencia incluida en el archivo LICENSE.
-
----
-
-# Autor
-
-Josef Rodriguez  
-Machine Learning | Model Risk | AI Applied  
+Josef Rodriguez
+Machine Learning | Model Risk | Applied AI
