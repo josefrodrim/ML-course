@@ -88,40 +88,6 @@ Clase 10
 Clase_10_WOES_HiperparametrosTuning.ipynb
 Feature engineering y hyperparameter tuning
 
-------------------------------------------------------------
-FEATURE ENGINEERING
-
-Técnicas utilizadas:
-
-- agrupación de categorías
-- transformaciones de variables
-- Weight of Evidence (WOE)
-- Information Value (IV)
-
-WOE = ln(%NoEvento / %Evento)
-
-IV = Σ (%NoEvento - %Evento) × WOE
-
-------------------------------------------------------------
-HYPERPARAMETER TUNING
-
-Métodos utilizados:
-
-- Grid Search
-- Random Search
-- Cross Validation
-
-Objetivo:
-
-lambda* = argmax Score(lambda)
-
-------------------------------------------------------------
-DATASETS
-
-dataset_mora.csv
-Datos_abiertos_admision_2021_1_2024_1.csv
-online_retail_II.xlsx
-ridetech_peru_regression_202201_202602.csv
 
 ------------------------------------------------------------
 PAPERS INCLUIDOS
