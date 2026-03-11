@@ -1,3 +1,19 @@
 clases_ml/
 __pycache__/
 .ipynb_checkpoints/
+
+# Python environments
+ml_course_env/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
