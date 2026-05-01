@@ -17,3 +17,6 @@ __pycache__/
 
 # MacOS
 .DS_Store
+
+# Local agent instructions
+AGENTS.md
