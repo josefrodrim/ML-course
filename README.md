@@ -1,8 +1,29 @@
 
 # Machine Learning Course / Curso de Machine Learning
 
+**Core Stack**
+
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
+![seaborn](https://img.shields.io/badge/seaborn-Statistical%20Plots-4C72B0)
+
+**Advanced / Specialized Stack**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?logo=tensorflow&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-02569B)
+![XGBoost](https://img.shields.io/badge/XGBoost-Boosted%20Trees-EC1C24)
+![CatBoost](https://img.shields.io/badge/CatBoost-Gradient%20Boosting-FFCC00)
+![NLTK](https://img.shields.io/badge/NLTK-NLP-76B900)
+![spaCy](https://img.shields.io/badge/spaCy-NLP-09A3D5)
+![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-Embeddings-5C3EE8)
+![FAISS](https://img.shields.io/badge/FAISS-Vector%20Search-3B82F6)
+![SHAP](https://img.shields.io/badge/SHAP-Explainability-7C3AED)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Viz-3F4F75?logo=plotly&logoColor=white)
+
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 **Author / Autor:** Josef Rodriguez
